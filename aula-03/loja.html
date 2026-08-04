@@ -1,120 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha loja</title>
+    <title>Minha Loja</title>
 </head>
 
 <body>
+
     <header>
         <h1>Brickão do Andrey</h1>
+
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#inicio">Produtos</a></li>
-                <li><a href="#inicio">Cadastro</a></li>
-
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
             </ul>
         </nav>
     </header>
+
     <hr>
+
     <main>
+
         <section id="inicio">
             <h2>Sobre a loja</h2>
-            <p>Bem vindo ao brickão do andrey! compra e venda de produtos usados
-                <br>
+
+            <p>
+                Bem-vindo ao Brickão do Andrey! Compra e venda de produtos usados
                 por um preço justo que a nossa comunidade merece.
             </p>
-            <hr>
-            <section id="produtos">
-                <h2>Produtos</h2>
-                <ul>
-                    <li>TV SAMSUNG 32 POL</li>
-                    <li>CAMA BOX DE CASAL </li>
-                    <li> IPHONE 11 128 GB</li>
-                    <li> REDMI 13C 128 GB</li>
-                    <li> ARMARIO DE COZINHA</li>
-                    <li>BICICLETA ARO 29</li>
-                    <li> COMPUTADOR</li>
-                </ul>
-                <h3>Tabela de Preços</h3>
+        </section>
 
-                <table border="1">
-                    <thead>
-                        <th>
-                            <tr>
-                                <th>produtos</th>
-                                <th>preços</th>
-                                <th>categoria</th>
-                            </tr>
-                        </th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Cama Box de Casal</td>
-                            <td>R$ 700,00</td>
-                            <td>Móveis</td>
-                        </tr>
-                    <tbody>
-                        <tr>
-                            <td>Iphone 11</td>
-                            <td>R$ 750,00</td>
-                            <td>Eletronicos</td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>Computador</td>
-                            <td>R$ 1.125,00</td>
-                            <td>Eletronico</td>
+        <hr>
 
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>TV Samsung 32POL </td>
-                            <td>R$ 960,00</td>
-                            <td>Eletronico</td>
-                        </tr>
-                    </tbody>
+        <section id="produtos">
 
-                </table>
+            <h2>Produtos</h2>
 
-                <hr>
-                <section id="cadastro">
-                    <h2>Cadastro</h2>
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" required>
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="text" id="email" required>
-                    <br>
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" minlength="8">
-                    <br>
-                    <h3>Tipo de cliente:</h3>
+            <ul>
+                <li>TV Samsung 32 POL</li>
+                <li>Cama Box de Casal</li>
+                <li>iPhone 11 128 GB</li>
+                <li>Redmi 13C 128 GB</li>
+                <li>Armário de Cozinha</li>
+                <li>Bicicleta Aro 29</li>
+                <li>Computador</li>
+            </ul>
 
-                    <input type="radio" id="pf" name="tipo de cliente">
-                    <label for="pf">Pessoa Fisica</label>
+            <h3>Tabela de Preços</h3>
 
-                    <input type="radio" id="pj" name="tipo de cliente">
-                    <label for="pj">Pessoa Juridica</label>
-                    
-                    <br><br>
-                    <button type="submit">Enviar</button>
-<hr>
-                    <label for="categoria">Categoria</label>
-                    <select name="categoria" id="categoria">
-                        <option disabled selected>Selecione uma opcao</option>
-                        <option>Eletrônicos</option>
-                         <option>Moveis</option>
-    
-                    </select>
-                   
-                    
-                    </form>
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Categoria</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Cama Box de Casal</td>
+                        <td>R$ 700,00</td>
+                        <td>Móveis</td>
+                    </tr>
+
+                    <tr>
+                        <td>iPhone 11</td>
+                        <td>R$ 750,00</td>
+                        <td>Eletrônicos</td>
+                    </tr>
+
+                    <tr>
+                        <td>Computador</td>
+                        <td>R$ 1.125,00</td>
+                        <td>Eletrônicos</td>
+                    </tr>
+
+                    <tr>
+                        <td>TV Samsung 32 POL</td>
+                        <td>R$ 960,00</td>
+                        <td>Eletrônicos</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <section id="cadastro">
+
+            <h2>Cadastro</h2>
+
+            <form action="/cadastro=pessoa" method="post">
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" minlength="8" required>
+
+                <br><br>
+
+                <h3>Tipo de cliente</h3>
+
+                <input type="radio" id="pf" name="tipo_cliente" value="pf" required>
+                <label for="pf">Pessoa Física</label>
+
+                <input type="radio" id="pj" name="tipo_cliente" value="pj">
+                <label for="pj">Pessoa Jurídica</label>
+
+                <br><br>
+
+                <label for="categoria">Categoria</label>
+
+                <select id="categoria" name="categoria" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="eletronicos">Eletrônicos</option>
+                    <option value="moveis">Móveis</option>
+                </select>
+
+                <br><br>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+
     </main>
 
 </body>
