@@ -1,48 +1,131 @@
-body {    background-color: #ffffff;    color: #080808;    font-family: Arial;    margin: 0;}
+body {
+    background-color: #ffffff;
+    color: #080808;
+    font-family: Arial;
+    margin: 0;
+}
 
-.container {    width: 90%;    max-width: 1000px;    margin: auto;}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
 
-#topo {    background-color: #003097;    color: white;    text-align: center;    padding: 25px;}
+#topo {
+    background-color: #003097;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
 
-.subtitulo {    color: #ffffff;}
+.subtitulo {
+    color: #ffffff;
+}
 
-.menu {    list-style: none;    padding: 0;}
+.menu {
+    list-style: none;
+    padding: 0;
+}
 
-.menu li {    display: inline;    margin: 10px;}
+.menu li {
+    display: inline;
+    margin: 10px;
+}
 
-.menu a {    color: rgb(197, 197, 197);    text-decoration: none;    font-weight: bold;}
+.menu a {
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    font-weight: bold;
+}
 
-.menu a:hover {    color: #8bc7ff;}
+.menu a:hover {
+    color: #8bc7ff;
+}
 
-.secao {    background-color: white;    margin: 25px 0;    padding: 25px;}
+.secao {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+}
 
-h2 {    color: #1e3a5f;}
+h2 {
+    color: #1e3a5f;
+}
 
-.hero {    text-align: center;}
+.hero {
+    text-align: center;
+}
 
-.etiqueta {    color: #1e3a5f;    font-weight: bold;}
+.etiqueta {
+    color: #1e3a5f;
+    font-weight: bold;
+}
 
-.botao {    background-color: #1e3a5f;    color: white;    padding: 10px 20px;    text-decoration: none;    
-border-radius: 5px;    display: inline-block;}
+.botao {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
 
-.botao:hover {    background-color: #191181;    color: rgb(199, 198, 198);}
+.botao:hover {
+    background-color: #191181;
+    color: rgb(199, 198, 198);
+}
 
-.card {    background-color: #eeeeee;    padding: 20px;    margin: 15px 0;    border-radius: 8px;}
+.card {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
 
-.card {    background-color: #eeeeee;    padding: 20px;    margin: 15px 0;    border-radius: 8px;    border: 2px solid #000000;}
+.card {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 2px solid #000000;
+}
 
-.preco {    color: rgb(142, 182, 255);    font-size: 20px;    font-weight: bold;}
+.preco {
+    color: rgb(142, 182, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
 
-.tabela {    width: 100%;    border-collapse: collapse;    margin-top: 20px;}
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
 
 .tabela th,
 
-.tabela td {    border: 1px solid #030303;    padding: 10px;    text-align: center;}
+.tabela td {
+    border: 1px solid #030303;
+    padding: 10px;
+    text-align: center;
+}
 
-.tabela th {    background-color: #1e3a5f;    color: white;}
+.tabela th {
+    background-color: #1e3a5f;
+    color: white;
+}
 
-.item-galeria img {    width: 100%;    max-width: 400px;    border-radius: 8px;}
+.item-galeria img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
 
 input,
 select,
-textarea {    width: 100%;    padding: 10px;    border: 1px solid #cccccc;    border-radius: 5px;}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
