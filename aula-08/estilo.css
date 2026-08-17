@@ -1,13 +1,67 @@
- body { background-color: #f7f8f8; }
- .menu{
+ /* PARTE 2 - FUNDO DA PÁGINA */
+
+body {
+    background-color: #f4f7fc;
+    padding-top: 170px;
+}
+
+
+/* PARTE 3 - MENU HORIZONTAL */
+
+.menu {
     list-style: none;
-    padding: 0%;
- }
- .menu li{
-    display: inline;
+    padding: 0;
+}
+
+
+.menu li {
+    display: inline-block;
     margin-right: 15px;
- }
- .menu a{
+}
+
+
+.menu a {
     text-decoration: none;
-    padding: 10px 16x ;
- }
+    padding: 10px 16px;
+}
+
+
+/* PARTE 5 - CARDS */
+
+.card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+/* PARTE 5 - ETIQUETA */
+
+.etiqueta {
+    background-color: #ff6600;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* PARTE 6 - CABEÇALHO FIXO */
+
+#topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    background-color: white;
+    padding: 15px;
+
+    z-index: 100;
+}
